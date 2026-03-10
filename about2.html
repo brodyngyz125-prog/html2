@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    </head>
+<body>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="photography2.html">Photography</a></li>
+            <li><a href="design2.html">Design</a></li>
+            <li><a href="about2.html">About</a></li>
+        </ul>
+    </nav>
+
+<h1> CONTACT AT: </h1>
+
+<h4>EMAIL: 29bnguyen11@ggusd.net</h4>
+
+<h4>PERSONAL: 123-456-7890</h4>
+
+<h4>WORK: 123-456-7890</h4>
+
+
+<img src="brody copy.png" alt="frustrated Mbappe with both hands on hips" width="160
+" height="220">
+
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brody Nguyen Studios</title>
+    <style>
+        /* GLOBAL STYLES */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #050505;
+            background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1600&q=80'); /* Background City Image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: auto;
+        }
+
+        /* NAVIGATION */
+        nav {
+            margin-bottom: 30px;
+            z-index: 10;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #00f2ff; /* Neon Cyan */
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 10px 25px;
+            border: 2px solid #00f2ff;
+            border-radius: 50px; /* Pill shape buttons */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        /* BUTTON HOVER EFFECT */
+        .nav-links a:hover {
+            background-color: #00f2ff;
+            color: #000;
+            box-shadow: 0 0 20px #00f2ff;
+            transform: scale(1.1);
+        }
+
+        /* MAIN TITLE SECTION */
+        .content-wrapper {
+            text-align: center;
+            z-index: 10;
+        }
+
+        .main-title {
+            font-size: clamp(3rem, 10vw, 6rem);
+            margin: 0;
+            
+            
+            /* This is the main dark grey box with the neon border */
+  .contact-box {
+    background-color: #1a1a1a; /* Dark grey */
+    border: 2px solid #00f2ff; /* Neon blue border */
+    border-radius: 20px; /* This creates the "Bezier" curve corners */
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.5); /* The neon glow */
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto; /* Centers it in the middle of the tab */
+  }
+
+  /* This forces the form items to stack on top of each other */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* This adds the gaps between your input boxes */
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px; /* The gap you asked for */
+    padding: 15px;
+    background-color: #0d0d0d; /* Slightly darker than the box */
+    border: 1px solid #333;
+    border-radius: 10px;
+    color: white;
+    font-family: inherit;
+    outline: none;
+  }
+
+  /* Neon effect when you click inside a box */
+  .contact-form input:focus, 
+  .contact-form textarea:focus {
+    border-color: #00f2ff;
+  }
+
+  /* The Submit Button styling */
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #00f2ff;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .submit-btn:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px #00f2ff;
+  }
+            
+            
+            
+            
+      
+  
+</style>
+
+
+
+<div class="contact-box">
+  <h2 style="text-align: center; color: #00f2ff; margin-top: 0;">FEEDBACK</h2>
+  
+  <form class="contact-form" action="mailto:29bnguyen11@ggusd.net" method="post" enctype="text/plain">
+    <input type="email" name="Email" placeholder="Email" required>
+    <input type="text" name="Name" placeholder="Name" required>
+    <textarea name="Feedback" rows="4" placeholder="Feedback" required></textarea>
+    
+    <button type="submit" class="submit-btn">Submit Request</button>
+  </form>
+</div>
