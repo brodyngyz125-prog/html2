@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,19 +9,21 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #0a0a0b; /* Deep city night */
+            background-color: #0a0a0b;
             background-image: radial-gradient(circle at center, #1a1a2e 0%, #0a0a0b 100%);
             color: #ffffff;
             font-family: 'Segoe UI', Arial, sans-serif;
-            height: 100vh;
+            /* Use min-height so the page can grow and scroll */
+            min-height: 100vh; 
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            /* Pushes content toward middle but padding-top keeps nav visible */
+            justify-content: center; 
+            padding: 40px 0;
             overflow: auto;
         }
 
-        /* Navigation Menu Above Title */
         nav {
             margin-bottom: 40px;
         }
@@ -36,10 +35,9 @@
             gap: 15px;
         }
 
-        /* Button Styling */
         .nav-links a {
             text-decoration: none;
-            color: #00f2ff; /* Neon Cyan */
+            color: #00f2ff;
             font-size: 1.1rem;
             font-weight: bold;
             padding: 10px 20px;
@@ -50,7 +48,6 @@
             transition: all 0.3s ease;
         }
 
-        /* Hover Effect: Changes color and adds a neon glow */
         .nav-links a:hover {
             background-color: #00f2ff;
             color: #000;
@@ -58,14 +55,12 @@
             transform: translateY(-2px);
         }
 
-        /* Big Title in Middle */
         .main-title {
             font-size: 5.5rem;
             text-align: center;
             margin: 0;
             text-transform: uppercase;
             letter-spacing: 8px;
-            /* Hot Pink Neon Glow */
             color: #fff;
             text-shadow: 
                 0 0 5px #fff,
@@ -75,15 +70,12 @@
                 0 0 80px #ff00ff;
         }
 
-        /* Responsive design for smaller screens */
         @media (max-width: 768px) {
             .main-title { font-size: 2.5rem; }
             .nav-links { flex-direction: column; align-items: center; }
         }
     </style>
-<body>
-
-    <nav>
+</head> <body> <nav>
         <ul class="nav-links">
             <li><a href="index2.html">Home</a></li>
             <li><a href="photography2.html">Photography</a></li>
@@ -91,9 +83,8 @@
             <li><a href="about2.html">About</a></li>
         </ul>
     </nav>
+
+    <h1 class="main-title">Brody Nguyen Studios</h1>
+
 </body>
-</head>
 </html>
-
-
-            
